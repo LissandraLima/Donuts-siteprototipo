@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KITTY DONUTS LANDING PAGE</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="circle"></div>
+      <header>
+        <a href="#"
+          ><img
+            src="components/img/11b75eda71b0a566e837136e9f5f88fb-removebg-preview.png"
+            alt="gato com donut"
+            class="logo"
+        /></a>
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li><a href="#Cardapio">Cardápio</a></li>
+          <li><a href="#">Combos Especiais</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>
+            It's not just donuts<br />
+            It's <br />
+            <span>KITTY DONUTS</span>
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex saepe
+            vitae, ad aperiam voluptatum odio culpa. Ipsam, possimus vitae!
+            Iusto neque unde error similique nulla dicta quisquam quibusdam
+            debitis vitae.
+          </p>
+          <a href="#">Comprar Agora</a>
+        </div>
+        <div class="imgBox">
+          <img src="components/img/nuts03-1.png" class="donuts" />
+        </div>
+      </div>
+      <ul class="thumb">
+        <li>
+          <img
+            src="components/img/nuts03-1.png"
+            onclick="imgSlider('components/img/nuts03-1.png')"
+          />
+        </li>
+        <li>
+          <img
+            src="components/img/o-tradicionalissimo_donut_kinder-bueno-branco_03.png"
+            onclick="imgSlider('components/img/o-tradicionalissimo_donut_kinder-bueno-branco_03.png')"
+          />
+        </li>
+        <li>
+          <img
+            src="components/img/produtos_aoleite.png"
+            onclick="imgSlider('components/img/produtos_aoleite.png')"
+          />
+        </li>
+      </ul>
+      <ul class="sci">
+        <li>
+          <a href="#"><img src="components/img/facebook.png" /> </a>
+        </li>
+        <li>
+          <a href="#"><img src="components/img/instagram.png" /> </a>
+        </li>
+        <li>
+          <a href="#"><img src="components/img/twitter.png" /> </a>
+        </li>
+      </ul>
+    </section>
+    <script type="text/javascript">
+      function imgSlider(anything) {
+        document.querySelector(".donuts").src = anything;
+      }
+    </script>
+    <section class="Cardapio">
+      <div class="main">
+        <div class="circle2"></div>
+        <!--<img
+          src="components/img/produtos_aoleite.png"
+          alt="4 donuts"
+          class="fourdonut"
+        />-->
+        <div class="cardapio-text">
+          <h2>Cardápio</h2>
+          <img
+            src="components/img/Café_com_chocolate-removebg-preview.png"
+            alt="donuts"
+            class="cad-img"
+          />
+          <img
+            src="components/img/Café_com_chocolate-removebg-preview.png"
+            alt="donuts"
+            class="cad-img1"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="Combos-especiais">
+      <div class="combo-text">
+        <div class="circle3"></div>
+        <h3> Combos<br>Especiais</h3> 
+        <div class="box0">Comprar Agora</div>
+        <p>Monte sua caixinha de KITTY DONUTS</p>
+        <div class="imgCaixa">
+        <img src="components/img/Screenshot_1-removebg-preview.png" alt="caixa-donuts" class="caixadonuts">
+      <ul class="cboox">
+        <li>
+          <img
+            src="components/img/Screenshot_1-removebg-preview.png"
+            onclick="imgSlide('components/img/Screenshot_1-removebg-preview.png')"
+          />
+        </li>
+        <li>
+          <img
+            src="components/img/Screenshot_2-removebg-preview.png"
+            onclick="imgSlide('components/img/Screenshot_2-removebg-preview.png')"
+          />
+        </li>
+        <li>
+          <img
+            src="components/img/Screenshot_3-removebg-preview.png"
+            onclick="imgSlide('components/img/Screenshot_3-removebg-preview.png')"
+          />
+        </li>
+      </ul></div>
+     
+      <script type="text/javascript">
+        function imgSlide(anything) {
+          document.querySelector(".caixadonuts").src = anything;
+        }
+        
+      </script>
+    </section>
+  </body>
+</html>
